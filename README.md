@@ -14,7 +14,7 @@ Há ainda uma demonstração de como funciona os sensores de detecção de obst�
 
 # Detalhamento do Hardware:
 
-![Alt Text](https://github.com/DavitecBrasil/Kit_Starter_F1/blob/master/Tr1.1.1.png)
+![Alt Text](https://github.com/DavitecBrasil/Kit_Starter_F1/blob/master/Imagem.jpg)
 
 * Circuito integrado L293 - Dupla Ponte H conectada a um motor DC e com outra conexão livre para uso geral.
 * Motor DC com redução e rodas.

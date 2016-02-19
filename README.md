@@ -9,7 +9,7 @@ Desenvolvido pela Davitec, este kit baseado no microcontrolador ESP8266 (NodeMCU
 <tab />A velocidade de funcionamento do motor de tração é feita via PWM, neste exemplo ela pode ser modificada  girando o trimpot do kit, ou seja, fazemos o uso do conversor analógico/digital para parametrizar o Duty do PWM.<br />
 <tab />Implementado também uma pequena rotina de controle PWM de baixa frequência para o Servo motor que faz controla a direção do veiculo. As posições de controle podem ser calibradas o alteradas nos defines.<br />
 <tab />Há ainda uma demonstração de como funciona os sensores de detecção de obstáculos com circuito integrado ID840, receptor de infravermelho, sua demonstração é feita utilizando os LEDs sinalizadores frontais.<br />
-[Código](/Starter_F1.ino)
+[>>Código Exemplo](/Starter_F1.ino)
 
 # Detalhamento do Hardware:
 

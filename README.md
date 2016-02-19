@@ -5,13 +5,10 @@ kit de desenvolvimento para robótica móvel com WiFi
 Desenvolvido pela Davitec, este kit baseado no microcontrolador ESP8266 (NodeMCU V2) é uma plataforma de hardware simples e de baixo custo para estudos de principios de robótica móvel, contendo toda a estrutura de um robô quadriciclo. Além de varias possíbilidade de expanssão para aplicações avançadas.
 
 # Descrição do Firmware:
-* Este firmware configura o kit F1 como um Acess Point (AP) de WiFi e recebe dados UDP para controle dos movimentos
- do kit, é possível controlar o Servo motor que faz o direcionamento e o motor de tração.
-* A velocidade de funcionamento do motor de tração é feita via PWM, neste exemplo ela pode ser modificada 
- girando o trimpot do kit, ou seja, fazemos o uso do conversor analógico/digital para parametrizar o Duty do PWM.
-* Implementado também uma pequena rotina de controle PWM de baixa frequência para o Servo motor que faz controla a
- direção do veiculo. As posições de controle podem ser calibradas o alteradas nos defines.
-* Há ainda uma demonstração de como funciona os sensores de detecção de obstáculos com circuito integrado ID840, receptor de infravermelho, sua demonstração é feita utilizando os LEDs sinalizadores frontais.
+<tab />Este firmware configura o kit F1 como um Acess Point (AP) de WiFi e recebe dados UDP para controle dos movimentos do kit, é possível controlar o Servo motor que faz o direcionamento e o motor de tração.<br />
+<tab />A velocidade de funcionamento do motor de tração é feita via PWM, neste exemplo ela pode ser modificada  girando o trimpot do kit, ou seja, fazemos o uso do conversor analógico/digital para parametrizar o Duty do PWM.<br />
+<tab />Implementado também uma pequena rotina de controle PWM de baixa frequência para o Servo motor que faz controla a direção do veiculo. As posições de controle podem ser calibradas o alteradas nos defines.<br />
+<tab />Há ainda uma demonstração de como funciona os sensores de detecção de obstáculos com circuito integrado ID840, receptor de infravermelho, sua demonstração é feita utilizando os LEDs sinalizadores frontais.<br />
 
 # Detalhamento do Hardware:
 
@@ -36,6 +33,7 @@ Desenvolvido pela Davitec, este kit baseado no microcontrolador ESP8266 (NodeMCU
 Esta plataforma foi consebida a priore para fins didáticos para alunos de cursos técnicos e entusiastas em geral.
 
 # Testes:
-* Para fazer o uso do kit F1, basta instalar a Arduíno IDE, conectar o Kit via USB e carregar o programa.
-![Alt Text] (https://www.youtube.com/watch?v=0ic3d3ru2ec)
+Para fazer o uso do kit F1, basta instalar a Arduíno IDE, conectar o Kit via USB e carregar o programa.<br />
+Além disso será necessário outro dispositivo para se conectar via WiFi ao kit e controla-lo, segundo o protocolo.
+
 

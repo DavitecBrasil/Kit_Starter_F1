@@ -5,12 +5,12 @@
  * Davitec - 18/02/2016
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  * Descrição:
- *   Este programa configura o kit F1 como um Acess Point (AP) e recebe dados UDP para controle dos movimentos
- * do kit, é possível controlar o Servo motor que faz o direcionamento e o motor de tração.
+ *   Este programa configura o kit F1 como um Access Point (AP) e recebe dados UDP para controle dos movimentos
+ * do kit.
  *   A velocidade de funcionamento do motor de tração é feita via PWM, neste exemplo ela pode ser modificada 
  * girando o trimpot do kit, ou seja, fazemos o uso do conversr analógico digital para parametrizar o PWM.
  *   Temos também uma pequena rotina de controle PWM de baixa frequência para o Servo motor que faz controla a
- * direção do veiculo. As posições de controle podem ser calibradas o alteradas nos defines.
+ * direção do veiculo. As posições de controle podem ser calibradas o alteradas nos defines do programa.
  *   Há ainda uma demonstração de como funciona os sensores de detecção de obstáculos com circuito integrado 
  * ID840, receptor de infravermelho, sua demonstração é feita utilizando os LEDs sinalizadores frontais.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 

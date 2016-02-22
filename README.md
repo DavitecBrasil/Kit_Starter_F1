@@ -40,6 +40,6 @@ Esta plataforma foi concebida a priore para fins didáticos para alunos de curso
 Para fazer o uso do kit F1, basta instalar a Arduíno IDE, conectar o Kit via USB e carregar o programa.<br />
 Além disso será necessário outro dispositivo WIFI (smartphone, Módulo ESP, ou outros módulos) para se conectar ao kit e controlá-lo segundo o protocolo.
 
-[>>Mais informações sobre ESP8266 no Arduíno](https://github.com/esp8266/Arduino)
+[>>Github ESP8266 no Arduíno](https://github.com/esp8266/Arduino)
 
 
